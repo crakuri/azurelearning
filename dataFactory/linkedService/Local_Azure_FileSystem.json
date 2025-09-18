@@ -1,0 +1,17 @@
+{
+	"name": "Local_Azure_FileSystem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "E:\\Broswer_Downloads\\Azure_FileSystem",
+			"userId": "azure_adf",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkODgzNTM1Ni0xYThhLTRkOWEtOGJlYS1lNjg1OGM1YjY3NWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "onPremToAzureIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
