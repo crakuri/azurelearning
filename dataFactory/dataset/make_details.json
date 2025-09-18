@@ -1,0 +1,35 @@
+{
+	"name": "make_details",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "make_details.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "make_id",
+				"type": "String"
+			},
+			{
+				"name": "make_name",
+				"type": "String"
+			},
+			{
+				"name": "make_type",
+				"type": "String"
+			}
+		]
+	}
+}

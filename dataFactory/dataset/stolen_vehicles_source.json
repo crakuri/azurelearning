@@ -1,0 +1,55 @@
+{
+	"name": "stolen_vehicles_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "stolen_vehicles.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "vehicle_id",
+				"type": "String"
+			},
+			{
+				"name": "vehicle_type",
+				"type": "String"
+			},
+			{
+				"name": "make_id",
+				"type": "String"
+			},
+			{
+				"name": "model_year",
+				"type": "String"
+			},
+			{
+				"name": "vehicle_desc",
+				"type": "String"
+			},
+			{
+				"name": "color",
+				"type": "String"
+			},
+			{
+				"name": "date_stolen",
+				"type": "String"
+			},
+			{
+				"name": "location_id",
+				"type": "String"
+			}
+		]
+	}
+}
