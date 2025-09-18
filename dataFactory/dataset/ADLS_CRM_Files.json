@@ -1,0 +1,27 @@
+{
+	"name": "ADLS_CRM_Files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adls_linked",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"FileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().FileName",
+					"type": "Expression"
+				},
+				"folderPath": "CRM",
+				"fileSystem": "bronze"
+			}
+		}
+	}
+}
