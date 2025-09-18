@@ -1,5 +1,5 @@
 {
-	"name": "CRMFolderFiles",
+	"name": "CRMFolderFiles_Source",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "Local_Azure_FileSystem",
