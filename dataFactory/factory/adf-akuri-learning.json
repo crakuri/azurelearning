@@ -1,0 +1,9 @@
+{
+	"name": "adf-akuri-learning",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7a397800-5c62-492c-accb-44ef9fbb521b",
+		"tenantId": "36e85c63-d0b7-4f75-b95b-2f7cda77942c"
+	}
+}
