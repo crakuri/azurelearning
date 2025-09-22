@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-akuri-learning"
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"Local_Azure_FileSystem_password": {
+			"value": ""
+		},
+		"adls_linked_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0918-153044-6vpvps82"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://chennalearningkeyvault.vault.azure.net/"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "E:\\Broswer_Downloads\\Motor+Vehicle+Thefts+CSV"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "azure_adf"
+		},
+		"Local_Azure_FileSystem_properties_typeProperties_host": {
+			"value": "E:\\Broswer_Downloads\\Azure_FileSystem"
+		},
+		"Local_Azure_FileSystem_properties_typeProperties_userId": {
+			"value": "azure_adf"
+		},
+		"adls_linked_properties_typeProperties_url": {
+			"value": "https://salearningakuri.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
